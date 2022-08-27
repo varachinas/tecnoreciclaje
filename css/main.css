@@ -1,0 +1,100 @@
+.header {
+        
+    background-image: url(../img/fondo.jpg); 
+    height: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+}
+
+
+.img-logo{
+    width: 200px;
+    height: 200px;
+    filter: brightness(1.7);
+    }
+
+.img-log{
+    width: 200px;
+    height: 200px;
+   
+    }
+    
+.navbar-toggler-icon{
+    color-scheme: rgb(250, 13, 13);
+}
+.header::after{
+    content:"";
+    display: block;
+    width:100%;
+    height: 100px;
+    background-color: #fff;
+    position:absolute; 
+    left: 0;
+    bottom: 0;
+}
+.vh-50{
+    height:40vmin;
+}
+.card-img-filter{
+        filter: brightness(0.5);
+    }
+
+/*seccion quienes somos*/
+.card{
+    transition-duration: .6s;
+    clip-path: polygon(
+        50% 0, 100% 0,100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+}
+.card-efect:hover .card{    
+    clip-path:polygon(
+    50% 0, 50% 0,100% 50%, 100% 50%,50% 100%, 50% 100%, 0 50%, 0 50%);
+}
+.card-img-overlay{
+    transition-duration: .6s;
+}
+.card-efect:hover .card-img-overlay{
+    transform: scale(0.9);
+}
+/*img investigaciones*/
+.media-object-img{
+    
+    width:65px;
+    margin-right: 15px;
+}
+/* calendario*/
+    
+
+    
+       
+    .hero{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+        position:relative;
+   }
+
+   #calendar{
+       width: 80%;
+       position: absolute;
+       top:50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+
+   }
+   .marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+   
+  .rounded-circle {
+    border-radius: 50%;
+  }
